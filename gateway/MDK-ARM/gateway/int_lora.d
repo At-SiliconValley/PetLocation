@@ -1,0 +1,14 @@
+gateway\int_lora.o: ..\Int\lora\Int_Lora.c
+gateway\int_lora.o: ..\Int\lora\Int_Lora.h
+gateway\int_lora.o: ..\Int\lora\ebyte_core.h
+gateway\int_lora.o: ..\Int\lora\ebyte_conf.h
+gateway\int_lora.o: ../Int/lora/E220xMx/ebyte_e220x.h
+gateway\int_lora.o: ../Int/lora/ebyte_conf.h
+gateway\int_lora.o: ../Int/lora/E220xMx/ebyte_callback.h
+gateway\int_lora.o: ../Int/lora/E220xMx/ebyte_port.h
+gateway\int_lora.o: ../Int/lora/ebyte_conf.h
+gateway\int_lora.o: ../Int/lora/E220xMx/ebyte_e220x.h
+gateway\int_lora.o: ../Int/lora/ebyte_conf.h
+gateway\int_lora.o: ../Int/lora/E220xMx/ebyte_callback.h
+gateway\int_lora.o: ../Int/lora/E220xMx/ebyte_port.h
+gateway\int_lora.o: ../Int/lora/ebyte_conf.h
