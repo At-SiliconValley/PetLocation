@@ -114,34 +114,7 @@ PetLocation/
 6. RTC闹钟触发,系统复位,回到步骤2
 ```
 
-### 关键数据结构
 
-#### Upload_Data_T (上报数据结构)
-```c
-typedef struct {
-    char timeDate[20];    // 北京时间: YYYY-MM-DD HH:MM:SS
-    float lat;            // 纬度(度)
-    char latDir[2];       // 纬度方向: N/S
-    float lon;            // 经度(度)
-    char lonDir[2];       // 经度方向: E/W
-    float speed;          // 速度
-    uint32_t step;        // 步数
-    char JSONData[512];   // JSON字符串缓存
-} Upload_Data_T;
-```
-
-#### JSON数据格式示例
-```json
-{
-  "stepNum": 1234,
-  "lat": 30.4682,
-  "latDir": "N",
-  "lon": 114.3883,
-  "lonDir": "E",
-  "speed": 3.44,
-  "dateTime": "2025-05-06 23:49:19"
-}
-```
 
 ### 核心模块说明
 
